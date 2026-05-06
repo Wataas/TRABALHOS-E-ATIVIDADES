@@ -1,8 +1,9 @@
-While:
+WHILE:
 
  -loops
+ 
  -tabuada
 
-Arrays:
+ARRAYS:
 
- -loops
+ -vetores
