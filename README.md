@@ -1,6 +1,6 @@
 While:
--loops
--tabuada
+ -loops
+ -tabuada
 
 Arrays:
--loops
+ -loops
