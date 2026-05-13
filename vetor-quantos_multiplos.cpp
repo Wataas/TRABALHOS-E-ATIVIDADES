@@ -1,41 +1,46 @@
 #include <iostream>
 using namespace std;
 
-int main()
-    {
-   
-       int vet[9];
-       int i=0;
-       int mult2=0;
-       int mult3=0;
-       
-       
-     
-       for (i=0; i<9; i++) {
-           
-          cout<<"digite um valorr"<< endl;
-          cin>>vet[i];
+int main () {
+    
+    int vet[5];
+    int i = 0;
+    int mul2;
+    int mul3;
+    int p = 0;
+    
+    while(p<10) {
+    
+    mul2= 0;
+    mul3= 0;
+        cout<<"digite os numeros abaixo para verificaçao"<< endl;
+        for (i=0; i<5; i++) {
+            
+            cin>>vet[i];
+            
         }
         
-       for (i=0; i<9; i++) {
-           
-           if (vet[i] % 2 == 0) {
-               
-               mult2++;
-               
-               
-               
-            }
-           
-            if (vet[i] % 3 == 0) {
+        for (i=0; i<5; i++) {
+            
+            if (vet[i] % 2==0) {
                 
-                mult3++;
+                mul2++;
             }
-       }
             
-            cout<<"multriplos de 2: "<<mult2<< endl;
-            cout<<"multplipos de 3: "<<mult3;
+            if (vet[i] % 3==0) {
+                
+                mul3++;
+               
+            }
             
+        }
+        
+        cout<<"numeros multiplos de 2: "<<mul2<< endl;
+        cout<<"numeros multiplos de 3: "<<mul3<< endl;
+        
+        
+        
         
     }
-      
+    
+}
