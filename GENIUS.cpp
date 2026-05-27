@@ -1,4 +1,5 @@
 #include <iostream>
+#include <unistd.h>
 using namespace std;
 
 void dc() {cout<<"=========================================="<< endl;}
@@ -30,22 +31,29 @@ int main () {
                
                 
                 if (escolha==1) {
-                    pagina = 2;
+                    pagina = 4;
+                    system("clear");
+                       sleep(1);
                     
                 }
                 else if (escolha==2) {
-                    pagina = 3;
+                    pagina = 2;
+                    system("clear");
+                       sleep(1);
                     
                 }
                 else if (escolha==3) {
-                    pagina = 4;
+                    pagina = 3;
+                    system("clear");
+                       sleep(1);
                     
                 }
+                else {cout<<"opçao invalida"<< endl;}
                 break;
                 
                 
                 
-            case 3:
+            case 2:
                 dc();
                 cout<<"|| //===produzido e programado por Jonas===// ||"<<endl;
                 cout<<"|| //===feito em maio/2026===//               ||"<< endl;
@@ -54,11 +62,16 @@ int main () {
                 cout<<"digite aqui >> ";  cin>>escolha;
                 if (escolha==1) { 
                     pagina = 1;
-                    break;
+                    system("clear");
+                       sleep(1);
+                    
                 }
+                    else { pagina = 2;}
+                    break;
+                
                            
                 
-            case 2:
+            case 4:
             dc();
                 cout << "||        QUAL A DIFICULDADE?           ||" << endl;
                 dc();
@@ -76,4 +89,13 @@ int main () {
                 
             }
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
 }
